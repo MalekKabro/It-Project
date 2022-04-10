@@ -1,12 +1,20 @@
 Een repository voor het vak It Project van groek "The Noob Masters" 
- Leden : 
-- Sabaouni Jafar : 
+The Noob Masters Leden :
+- Sabaouni Jafar 
 - S'Jegers Dante
 - Sinan Karer
 - Kabro Malek
+
+
+Hoe beginnen met git : 
 
 git add .
 git commit -m "TEXT"
 git push
 
 
+Hoe beginen met ts-node: 
+
+tsc --init
+npm install @types/node
+ts-node <naam file>.ts == Run/F5

@@ -1,0 +1,28 @@
+In dit doc kan je leren hoe je het api kunt gebuiken 
+
+
+- hoe alle cosmetics laten tonen OPGELET hier spreken we over +7000: 
+https://fortnite-api.com/v2/cosmetics/br
+  - welke data kan je uit halen per items hier van ?:
+      - items id ; Pickaxe_ID_086_Biker
+      - items naam
+      - items uitleg/description
+      - items type  ; Pickaxe, banner, wrap, contrail, outfit enz....               
+      - items rarity vb ; uncommon
+      - in welke serie die toegevoegd is 
+      - In welke set hoort dit items  
+      - Waneer is die items geïntroduceerd ; Geïntroduceerd in Hoofdstuk 1, Seizoen 5
+      - items imges 
+      - items variants
+              - kleur
+              - stijl
+              - Pattern
+              - enz....
+      - items  
+      
+- met een : https://fortnite-api.com/v2/cosmetics/br/search?type=outfit 
+  - kan je items zoeken en het zal gegevens van de eerste overeenkomt met de zoekparameter tonen: vb 
+        https://fortnite-api.com/v2/cosmetics/br/search?type=outfit
+- met een : https://fortnite-api.com/v2/cosmetics/br/search/all 
+  - kan je items zoeken en het zal alle overeenkomst met de zoekparameter tonen: vb 
+        https://fortnite-api.com/v2/cosmetics/br/search/all?type=outfit
