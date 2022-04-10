@@ -1,0 +1,12 @@
+Een repository voor het vak It Project van groek "The Noob Masters" 
+ Leden : 
+- Sabaouni Jafar : 
+- S'Jegers Dante
+- Sinan Karer
+- Kabro Malek
+
+git add .
+git commit -m "TEXT"
+git push
+
+
