@@ -17,12 +17,24 @@ https://fortnite-api.com/v2/cosmetics/br
               - kleur
               - stijl
               - Pattern
-              - enz....
-      - items  
+              - enz....  
       
 - met een : https://fortnite-api.com/v2/cosmetics/br/search?type=outfit 
   - kan je items zoeken en het zal gegevens van de eerste overeenkomt met de zoekparameter tonen: vb 
         https://fortnite-api.com/v2/cosmetics/br/search?type=outfit
+          - wat je mee kan geven : 
+            - id 
+            - naam
+            - type
+            - rarity
+            - hasSeries = of het items een serie heeft ; boolean
+            - series 
+            - hasSet = of het items een set heeft ; boolean
+            - set 
+            - hasFeaturedImage = of het items een foto heeft ; boolean
+            - hasDynamicPakId = of het items verbonen is aan een set
+            - dynamicPakId 
+            -         
 - met een : https://fortnite-api.com/v2/cosmetics/br/search/all 
   - kan je items zoeken en het zal alle overeenkomst met de zoekparameter tonen: vb 
         https://fortnite-api.com/v2/cosmetics/br/search/all?type=outfit
