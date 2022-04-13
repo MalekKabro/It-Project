@@ -51,20 +51,15 @@ interface RootObject {
 }
 
 
-const  apiCall = async() => {
+const apiCall = async () => {
     let response = await axios.get("https://fortnite-api.com/v2/cosmetics/br/search/all?type=outfit");
     let info: RootObject = response.data;
     return info
 
-    // for (let i = 0; i < info.data.length; i++) {
-    //     console.log(info.data[i].name)
-
-    // }
-
 };
 
 
-export {};
+export { };
 
 
 
@@ -72,5 +67,3 @@ export {};
 // function getRandomInt(max:number) {
 //     return Math.floor(Math.random() * max);
 //   }
-
-export { }
